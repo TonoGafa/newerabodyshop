@@ -1,0 +1,42 @@
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.fondoAzul{
+    background-color: #0076a7;
+    color: white;
+}
+
+.fondoVerde{
+    background-color: #00aea5;
+    color: white;
+}
+
+.imagenPuntosLineas{
+    background-image: url('../img/1091.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;
+    background-size: 200% 200%;*/
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  
+  body,html{
+    width: 100%;
+    height: 100%;
+  }
+
+  .textoInicioSesion{
+      padding: 0.8% 4% 0.8% 4%;
+      border-radius: 20px 20px 20px 20px;
+      background-color: #0076a7;
+      color: white;
+      font-weight: bold;
+  }
+
+
