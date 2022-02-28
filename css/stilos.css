@@ -141,4 +141,6 @@ body{
     border: #0364A0 solid;
     border-radius: 50px;
     background-color: #363636;
+    padding-bottom: 0.5rem !important;
+    padding-top: 0.5rem !important;
   }
