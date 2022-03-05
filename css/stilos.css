@@ -51,6 +51,8 @@
 body{
     /*position:relative;min-width:950px;padding-top:15px;*/
     background:#7F7F7F url("../img/bckgrnd_02.jpg")repeat center top scroll;
+    width: 100%;
+    height: 100%;
 }
 
 
