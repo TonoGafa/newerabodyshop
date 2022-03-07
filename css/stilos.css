@@ -173,4 +173,13 @@ body{
     height: 100%;
 }
 
+.ourWork{
+  background-color: #BABABA;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 0.5rem !important;
+  padding-top: 0.5rem !important;
+  border-radius: 40px;
+}
+
  
