@@ -73,8 +73,38 @@ body{
       color: white;
   }
 
+  #hero-area_About {
+    background: url("../img/worshop/location_2.jpeg")  100%;
+    /*background-size: 10% 10%;*/
+    margin-top: 102px;
+    padding-top: 102px;
+    background-size: 100%;
+    padding: 180px 0;
+    color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #hero-area_About:before {
+    content: '';
+    z-index: 9;
+    background: rgba(0, 0, 0, 0.59);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  #hero-area_About .block {
+    position: relative;
+    z-index: 999;
+  }
+
   #hero-area {
-    background: url("../img/new_era_body_shop_large.jpg") no-repeat 100%;
+    background: url("../img/new_era_body_shop_large.jpg")  100%;
     /*background-size: 10% 10%;*/
     margin-top: 102px;
     padding-top: 102px;
