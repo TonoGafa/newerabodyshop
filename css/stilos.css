@@ -195,7 +195,8 @@
     /*background: linear-gradient(70deg, black, white);*/
     padding-bottom: 0.5rem !important;
     padding-top: 0.5rem !important;
-    color: red;
+    color: black;
+    font-weight: bold;
   }
   
   .dorderGlass_3{
