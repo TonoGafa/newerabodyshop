@@ -66,13 +66,9 @@
   }
 
   .block-2{
-      color: white;
       font-weight: bold;
   }
 
-  .text-white{
-      color: black;
-  }
 
   #hero-area_About {
     background: url("../img/worshop/location_2.jpeg")  100%;
@@ -186,6 +182,7 @@
     background: linear-gradient(70deg, #0A6065, black);
     padding-bottom: 0.5rem !important;
     padding-top: 0.5rem !important;
+    color: red;
   }
   
   .dorderGlass_2{
@@ -224,7 +221,27 @@
   border-radius: 40px;
 }
 
+
+.contentBody_Work{
+  background:linear-gradient(70deg,#1d1df35b,#2f96b2de) ;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #0a0a0a;
+}
  
+.contentBody_Work_2{
+  background:linear-gradient(70deg,#0182d8aa,#2f96b2de) ;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #e70707;
+}
+
+.labelFooter{
+  color: yellow;
+  font-weight: bold;
+}
 
 
 
