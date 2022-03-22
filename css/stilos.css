@@ -188,12 +188,14 @@
   .dorderGlass_2{
     box-shadow: 5px 5px 100px 30px #CCB9AA;
     border-radius: 40px;
-    background:linear-gradient(70deg,#166266,#3099B6);
+    /*background:linear-gradient(70deg,#166266,#3099B6);*/
     /*background: linear-gradient(70deg, black, white);*/
+    background: linear-gradient(900deg,#103C83,#0ae7f7cb,#3A7BB2);
     padding-bottom: 0.5rem !important;
     padding-top: 0.5rem !important;
     color: black;
     font-weight: bold;
+    font-size: 2.3em;
   }
   
   .dorderGlass_3{
@@ -241,6 +243,13 @@
 .labelFooter{
   color: yellow;
   font-weight: bold;
+}
+
+.classNavMenu{
+  /*background:linear-gradient(70deg,#05586f,#2B8EA7);*/
+  background:linear-gradient(70deg,#05586f,#18676E);
+  font-weight: bold; 
+  border-bottom: solid #EC1F24 9px;
 }
 
 
