@@ -249,7 +249,7 @@
   /*background:linear-gradient(70deg,#05586f,#2B8EA7);*/
   background:linear-gradient(70deg,#05586f,#18676E);
   font-weight: bold; 
-  border-bottom: solid #EC1F24 9px;
+  /*border-bottom: solid #EC1F24 9px;*/
 }
 
 
@@ -295,4 +295,31 @@
 }
 #newsletter .form-control::-webkit-input-placeholder {
   color: #ffffff;
+}
+
+
+.cursos {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/imagenfondoAzul.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.tipsTitle {
+  margin-top: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/tipsTitle.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.bodyWorkTitle {
+  margin-top: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/bodyWorkTitle.jpg");
+  background-position: 50%;
+  background-size: cover;
 }
