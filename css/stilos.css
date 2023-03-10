@@ -256,14 +256,18 @@
 
 #newsletter {
   /*background: url('../img/Liston_1.png') center center;*/
-  background-color: #0B2154;
+  background:linear-gradient(70deg,#05586f,#2B8EA7);
+  font-weight:bold;
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
   text-align: center;
- margin-top: -40px;
+  margin-top: -40px;
+  margin-bottom: 4rem;
 /*    padding-top: 120px;
   padding-bottom: 120px;*/
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
 }
 #newsletter p {
   padding-bottom: 30px;
@@ -317,9 +321,58 @@
 
 .bodyWorkTitle {
   margin-top: 4rem;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/bodyWorkTitle.jpg");
   background-position: 50%;
   background-size: cover;
+}
+
+
+
+
+
+.ClassImageAfterBefor{
+  height: 100vh;
+  width: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.image-1 {
+  background-image: url("../img/before.jpg")
+}
+.image-2 {
+  background-image: url("../img/after.jpg");
+}
+
+.image-3 {
+  background-image: url("../img/before_2.jpg");
+}
+.image-4 {
+  background-image: url("../img/after_2.jpg");
+}
+
+.image-5 {
+  background-image: url("../img/before_3.jpg");
+}
+.image-6 {
+  background-image: url("../img/after_3.jpg");
+}
+
+.image-7 {
+  background-image: url("../img/before_4.jpg");
+}
+.image-8 {
+  background-image: url("../img/after_4.jpg");
+}
+
+
+.titleTransaction{
+  background:linear-gradient(70deg,#020c0fa4,#2B8EA7,#020c0fa4);
+  color: #ffffff;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
