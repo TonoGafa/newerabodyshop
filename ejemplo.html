@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo de antes y después con TwentyTwenty</title>
+	<link rel="stylesheet" href="ruta/a/twentytwenty.css" />
+	<script src="ruta/a/jquery.min.js"></script>
+	<script src="ruta/a/jquery.twentytwenty.js"></script>
+
+	<link href="css/foundation.css" rel="stylesheet" type="text/css" />
+	<link href="css/twentytwenty.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+	
+    <div class="row" style="margin-top: 2em;">
+		<div class="large-4 columns">
+		  <h3>Basic Usage</h3>
+		  <p>Demonstrates basic usage of the plugin.</p>
+		</div>
+		<div class="large-8 columns">
+		  <div class="twentytwenty-container">
+			  <img src="img/before.jpg" />
+			<img src="img/after.jpg" />
+		  </div>
+		</div>
+	  </div>
+
+
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.js"
+	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous"></script>
+	  <script src="js/jquery.event.move.js"></script>
+	  <script src="js/jquery.twentytwenty.js"></script>
+	  <script>
+	  $(function(){
+		$(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+		$(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+	  });
+	  </script>
+</body>
+</html>
+
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo de antes y después</title>
+	<style>
+		.container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			gap: 20px;
+		}
+
+		.image {
+			position: relative;
+			width: 400px;
+			height: 300px;
+			overflow: hidden;
+		}
+
+		.image:before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 50%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+			transition: all 0.3s ease-out;
+			z-index: 1;
+		}
+
+		.image:hover:before {
+			width: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="image">
+			<img src="img/before.jpg" alt="Antes" width="400" height="300">
+			<img src="img/after.jpg" alt="Después" width="400" height="300">
+		</div>
+	</div>
+</body>
+</html>-->

@@ -47,6 +47,14 @@
     -moz-appearance: textfield;
 }*/
 
+@font-face {
+
+  font-family: 'titleSintilla';
+  
+  src: url("../font/hillenberg-shadow.ttf");
+  
+  }
+
 
 .Classbody{
     /*position:relative;min-width:950px;padding-top:15px;*/
@@ -247,11 +255,17 @@
 
 .classNavMenu{
   /*background:linear-gradient(70deg,#05586f,#2B8EA7);*/
-  background:linear-gradient(70deg,#05586f,#18676E);
+  background:linear-gradient(70deg,#0d6f8a,#18676e);
   font-weight: bold; 
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
   /*border-bottom: solid #EC1F24 9px;*/
 }
 
+
+.classNavMenu.transparency {
+  opacity: 0.9;
+}
 
 
 #newsletter {
@@ -267,7 +281,8 @@
 /*    padding-top: 120px;
   padding-bottom: 120px;*/
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-
+  font-size: 2.8rem;
+  font-family: 'titleSintilla';
 }
 #newsletter p {
   padding-bottom: 30px;
@@ -308,6 +323,17 @@
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/imagenfondoAzul.jpg");
   background-position: 50%;
   background-size: cover;
+}
+
+.pageHome {
+  margin-top: 5.5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/new_era_body_shop_large.jpg");
+  background-position: 50%;
+  background-size: 100%;
+  
+
 }
 
 .tipsTitle {
